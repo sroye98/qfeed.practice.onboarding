@@ -1,8 +1,9 @@
+import { HashRouter as Router } from 'react-router-dom';
 import { Layout } from 'antd';
 
 import HeaderLayout from './components/Header';
 import FooterLayout from './components/Footer';
-import Registration from './views/Registration';
+import Routes from './routes';
 
 const { Header, Footer, Content } = Layout;
 
@@ -14,9 +15,7 @@ const Application = (props) => {
                     <HeaderLayout />
                 </Header>
                 <Content style={{ margin: '20px' }}>
-                    <div className="site-layout-content">
-                        <Registration />
-                    </div>
+                    <Routes />
                 </Content>
                 <Footer style={{ textAlign: 'center' }}>
                     <FooterLayout />
