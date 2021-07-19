@@ -33,6 +33,9 @@ const Registration = (props) => {
                 <Form.Item label="Practice Address" name="practiceName" rules={[{ required: false, message: 'Please enter the practice address' }]}>
                     <Input />
                 </Form.Item>
+                <Form.Item label="Practice Website" name="practiceUrl" rules={[{ required: false, message: 'Please enter the practice website address' }]}>
+                    <Input />
+                </Form.Item>
                 <Form.Item label="Practice Logo" name="practiceName" rules={[{ required: false, message: 'Please enter the practice logo' }]}>
                     <Upload>
                         <Button icon={<UploadOutlined />}>Click to Upload Logo</Button>
