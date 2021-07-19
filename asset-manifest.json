@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/qfeed.practice.onboarding/static/css/main.469b62e8.chunk.css",
+    "main.js": "/qfeed.practice.onboarding/static/js/main.374566a6.chunk.js",
+    "main.js.map": "/qfeed.practice.onboarding/static/js/main.374566a6.chunk.js.map",
+    "runtime-main.js": "/qfeed.practice.onboarding/static/js/runtime-main.64cf784b.js",
+    "runtime-main.js.map": "/qfeed.practice.onboarding/static/js/runtime-main.64cf784b.js.map",
+    "static/css/2.81b0985c.chunk.css": "/qfeed.practice.onboarding/static/css/2.81b0985c.chunk.css",
+    "static/js/2.a2d0cffd.chunk.js": "/qfeed.practice.onboarding/static/js/2.a2d0cffd.chunk.js",
+    "static/js/2.a2d0cffd.chunk.js.map": "/qfeed.practice.onboarding/static/js/2.a2d0cffd.chunk.js.map",
+    "static/js/3.7f2f182a.chunk.js": "/qfeed.practice.onboarding/static/js/3.7f2f182a.chunk.js",
+    "static/js/3.7f2f182a.chunk.js.map": "/qfeed.practice.onboarding/static/js/3.7f2f182a.chunk.js.map",
+    "index.html": "/qfeed.practice.onboarding/index.html",
+    "static/css/2.81b0985c.chunk.css.map": "/qfeed.practice.onboarding/static/css/2.81b0985c.chunk.css.map",
+    "static/css/main.469b62e8.chunk.css.map": "/qfeed.practice.onboarding/static/css/main.469b62e8.chunk.css.map",
+    "static/js/2.a2d0cffd.chunk.js.LICENSE.txt": "/qfeed.practice.onboarding/static/js/2.a2d0cffd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64cf784b.js",
+    "static/css/2.81b0985c.chunk.css",
+    "static/js/2.a2d0cffd.chunk.js",
+    "static/css/main.469b62e8.chunk.css",
+    "static/js/main.374566a6.chunk.js"
+  ]
+}
