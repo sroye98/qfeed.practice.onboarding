@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/qfeed.practice.onboarding/static/css/main.469b62e8.chunk.css",
-    "main.js": "/qfeed.practice.onboarding/static/js/main.27b1cbf2.chunk.js",
-    "main.js.map": "/qfeed.practice.onboarding/static/js/main.27b1cbf2.chunk.js.map",
+    "main.js": "/qfeed.practice.onboarding/static/js/main.6ab49170.chunk.js",
+    "main.js.map": "/qfeed.practice.onboarding/static/js/main.6ab49170.chunk.js.map",
     "runtime-main.js": "/qfeed.practice.onboarding/static/js/runtime-main.64cf784b.js",
     "runtime-main.js.map": "/qfeed.practice.onboarding/static/js/runtime-main.64cf784b.js.map",
     "static/css/2.81b0985c.chunk.css": "/qfeed.practice.onboarding/static/css/2.81b0985c.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.81b0985c.chunk.css",
     "static/js/2.a2d0cffd.chunk.js",
     "static/css/main.469b62e8.chunk.css",
-    "static/js/main.27b1cbf2.chunk.js"
+    "static/js/main.6ab49170.chunk.js"
   ]
 }
