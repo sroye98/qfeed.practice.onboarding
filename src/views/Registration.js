@@ -26,6 +26,9 @@ const Registration = (props) => {
                 <Form.Item label="Password" name="password" rules={[{ required: true, message: 'Please enter the your password' }]}>
                     <Input.Password />
                 </Form.Item>
+                <Form.Item label="Confirm Password" name="confirmpassword" rules={[{ required: true, message: 'Please confirm your password' }]}>
+                    <Input.Password />
+                </Form.Item>
                 <Divider plain>Practice Information</Divider>
                 <Form.Item label="Practice Name" name="practiceName" rules={[{ required: true, message: 'Please enter the practice name' }]}>
                     <Input />
@@ -41,20 +44,31 @@ const Registration = (props) => {
                         <Button icon={<UploadOutlined />}>Click to Upload Logo</Button>
                     </Upload>
                 </Form.Item>
+                <Divider plain>Physician Information</Divider>
+                <Form.Item label="Physician Name" name="physicianName" rules={[{ required: true, message: 'Please enter the physician\'s name' }]}>
+                    <Input />
+                </Form.Item>
+                <Form.Item label="Physician Specialties" name="physicianSpecialties" rules={[{ required: false, message: 'Please enter the physician\'s specialties' }]}>
+                    <Input />
+                </Form.Item>
+                <Form.Item label="Physician Email Address" name="physicianEmailAddress" rules={[{ required: false, message: 'Please enter the physician\'s email address' }]}>
+                    <Input />
+                </Form.Item>
                 <Divider plain>Social Media Options</Divider>
                 <Form.Item label="Render Video Streams" name="renderStream" help="Select which Social Media platforms we should automatically render" rules={[{ required: true, message: 'Please select which platforms to automatically render streams' }]}>
                     <Checkbox.Group>
                         <Space direction="vertical">
                             <Checkbox checked={true} value="facebook">Facebook</Checkbox>
                             <Checkbox checked={true} value="instagram">Instagram</Checkbox>
+                            <Checkbox checked={true} value="linkedin">LinkedIn</Checkbox>
                             <Checkbox checked={true} value="twitter">Twitter</Checkbox>
                         </Space>
                     </Checkbox.Group>
                 </Form.Item>
                 <Form.Item>
                     <Space>
-                        <Button>Cancel</Button>
                         <Button type="primary" onClick={handleRegister}>Register</Button>
+                        <Button>Cancel</Button>
                     </Space>
                 </Form.Item>
             </Form>
